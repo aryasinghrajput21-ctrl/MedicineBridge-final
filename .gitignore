@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+
+# Build and coverage output
+dist/
+dist-ssr/
+coverage/
+
+# Logs and debug output
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+firebase-debug.log
+firestore-debug.log
+ui-debug.log
+
+# Local environment files
+.env
+.env.*
+!.env.example
+*.local
+
+# Firebase and local development state
+.firebase/
+.firebase-tools/
+.bolt/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE and editor files
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
